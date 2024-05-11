@@ -1,0 +1,85 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+#container {
+    background: url("./img/fundo-netflix.jpg");
+    padding-bottom: 100%;
+}
+
+.logo {
+    margin-top: 18px;
+    margin-left: 190px;
+    height: 40px;
+}
+
+.entrar {
+    color: white
+    ;
+    background: #e50914;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-right: 18px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    margin-top: 18px;
+    margin-right: 190px;
+    cursor: pointer;
+
+}
+
+h1 {
+    margin-top: 230px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.principal {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.secundario {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+}
+#botao-email{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    height: 50px;
+}
+input{
+    width: 420px;
+   padding-left: 8px;
+   border: none;
+   border-radius: 4px;
+  
+   ;
+}
+.email{
+    font-family: sans-serif;
+    color: white;
+     background: #e50914;
+     font-size: 20px;
+     padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    width: 190px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 6px;
+    cursor: pointer;
+}
